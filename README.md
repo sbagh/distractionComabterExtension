@@ -1,5 +1,5 @@
 # distractionComabterExtension
- Chrome extension to detect you endlessly scrolling different websites and snap you out of it (stop the dopamine algos!)
+ Chrome extension to detect if you are endlessly scrolling different websites and snap you out of it (stop the dopamine algos!)
 
 It will consist of multiple subsystems:
 
