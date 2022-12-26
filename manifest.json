@@ -1,0 +1,11 @@
+{
+   "manifest_version": 3,
+   "name": "name",
+   "version": "1.0",
+   "description": "Will inform you if you are endlessley scrolling on youtube, fb, reddit.etc.",
+   "permissions": ["tabs", "storage"],
+   "action": {
+      "default_popup": "index.html"
+   },
+   "type":"module"
+}
