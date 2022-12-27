@@ -22,7 +22,6 @@ async function currentURL() {
    }
 }
 
-// new URL(tab.url).hostname;
 
 // 3- check if current host name is part of storage
 // if so return the countdown number (which is the correspdonding value of local storage key)
