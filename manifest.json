@@ -1,12 +1,13 @@
 {
    "manifest_version": 3,
-   "name": "name",
+   "name": "distractionCombater",
    "version": "1.0",
-   "description": "Will inform you if you",
-   "permissions": ["tabs", "storage"],
-   "action": {},
+   "description": "Will inform you if you are endlessley scrolling on youtube, fb, reddit.etc.",
+   "permissions": ["tabs", "storage", "alarms", "notifications"],
+   "action": {
+      "default_popup": "index.html"
+   },
    "background": {
-      "service_worker": "background.js",
-      "type": "module"
+      "service_worker": "background.js"
    }
 }
