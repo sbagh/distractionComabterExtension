@@ -5,6 +5,8 @@ link1 = { "www.youtube.com": 3 };
 chrome.storage.sync.set(link1);
 
 // 2- find current active tab from current focused window
+
+// get tab id:
 // chrome.tabs.query({ active: true, currentWindow: true }, function (tabs) {
 //    var tab = tabs[0];
 //    console.log(tab.id);
